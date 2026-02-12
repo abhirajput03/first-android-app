@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Login App</string>
+    <string name="login_title">Login</string>
+    <string name="login_desc">Welcome back! Please enter your details.</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_btn">Login</string>
+    <string name="or_text">OR</string>
+    <string name="apple_text">Apple</string>
+    <string name="google_text">Google</string>
+</resources>

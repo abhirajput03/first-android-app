@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".HomeActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello android"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#3F69D3" />
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:hint="Enter Your Name"
+         android:inputType="text"
+         />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="36dp"
+         android:text="Submit"
+         android:backgroundTint="#3F69D3"
+         android:textColor="@color/white"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm interested" />
+    <TextView
+        android:id="@+id/radio_group_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Select your Tech Stack:" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Native Android"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Native IOS"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="React Native"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flutter"/>
+    </RadioGroup>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable feature"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:thumbTint="#3F69D3"/>
+    <TextView
+        android:id="@+id/radio_group_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="About Android Studio :" />
+    <TextView
+        android:id="@+id/radio_group_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Android Studio is the official Integrated Development Environment (IDE) for building apps on the Android platform. Built by Google and based on JetBrains' IntelliJ IDEA software, it provides a unified environment and a comprehensive suite of tools for designing, developing, debugging, and testing applications for all Android devices, including phones, tablets, Wear OS, and TVs. "/>
+    <ImageView
+        android:id="@+id/vk_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="App background image" />
+    </LinearLayout>
+</ScrollView>
