@@ -25,4 +25,4 @@ A simple Android app built with **Jetpack Compose** that fetches posts from a du
 
 1. Clone the repo:  
 ```bash
-git clone https://github.com/username/RepoName.git
+ https://github.com/abhirajput03/first-android-app.git
